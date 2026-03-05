@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Playfair Display', 'Georgia', 'serif'],
+        body: ['Source Sans 3', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,12 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        diary: {
+          line: "hsl(var(--diary-line))",
+          today: "hsl(var(--diary-today))",
+          selected: "hsl(var(--diary-selected))",
+          "entry-dot": "hsl(var(--diary-entry-dot))",
         },
       },
       borderRadius: {
